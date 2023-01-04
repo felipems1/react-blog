@@ -1,0 +1,50 @@
+.container-post {
+  margin-top: 80px;
+  background-color: #0e1217;
+  padding: 30px 50px;
+}
+
+.container-post h2 {
+  color: #fff;
+  font-size: 40px;
+}
+
+.container-post p {
+  color: #ccc;
+  margin-top: 10px;
+}
+
+.container-delete {
+  background-color: #0e1217;
+  padding: 30px 50px;
+}
+
+.container-delete button {
+  background-color: #f00;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.container-delete button:hover {
+  background-color: #b00;
+}
+
+.container-comments {
+  background-color: #0e1217;
+  padding: 30px 50px;
+}
+
+.container-comments h3 {
+  font-size: 30px;
+  color: #fff;
+}
+
+.container-comments p {
+  font-size: 17px;
+  color: #ccc;
+  margin-top: 10px;
+}

@@ -1,0 +1,55 @@
+.container-add {
+  background-color: #0e1217;
+  margin-top: 80px;
+  height: calc(100vh - 80px);
+  overflow-x: hidden;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 100px;
+}
+
+form label {
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+form input {
+  margin-bottom: 10px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  outline: none;
+}
+
+form textarea {
+  border: none;
+  border-radius: 10px;
+  height: 80px;
+  padding: 10px;
+  outline: none;
+}
+
+form .btn-add {
+  margin-top: 20px;
+  width: 100px;
+  padding: 12px;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  color: #000;
+  font-weight: bold;
+  font-size: 15px;
+  background-color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+form .btn-add:hover {
+  color: #fff;
+  background-color: #0e1217;
+  border: 1px solid #fff;
+}
