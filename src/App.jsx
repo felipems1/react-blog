@@ -1,14 +1,14 @@
-import { Outlet } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
+
+import RoutesApp from "./RoutesApp";
 import Header from "./components/Header";
 
 const App = () => {
   return (
-    <div>
+    <BrowserRouter>
       <Header />
-      <div className="container">
-        <Outlet />
-      </div>
-    </div>
+      <RoutesApp />
+    </BrowserRouter>
   );
 };
 

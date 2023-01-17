@@ -1,8 +1,11 @@
 .container-add {
   background-color: #0e1217;
   margin-top: 80px;
-  height: calc(100vh - 80px);
+  height: calc(100% - 80px);
+  width: 100vw;
   overflow-x: hidden;
+  position: absolute;
+  top: 0;
 }
 
 form {

@@ -1,6 +1,8 @@
 .container-posts {
-  margin-top: 80px;
+  padding-top: 80px;
   background-color: #0e1217;
+  position: relative;
+  top: 0;
 }
 
 .container-posts h1 {
