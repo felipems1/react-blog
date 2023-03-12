@@ -19,7 +19,6 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - ReactJS
 - JavaScript
 - CSS
-- React-Router
 - Axios
 - Git e Github
 
